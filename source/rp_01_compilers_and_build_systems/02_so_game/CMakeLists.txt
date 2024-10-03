@@ -1,4 +1,8 @@
-cmake_minimum_required (VERSION 2.8.11)
+message("---------------------------------")
+message(" Executing CMake ")
+message("---------------------------------")
+
+cmake_minimum_required (VERSION 3.10)
 project (so_game)
 
 find_package(OpenGL REQUIRED)
@@ -15,4 +19,7 @@ target_link_libraries(so_game
   m
   )
 
-
+message("---------------------------------")
+message(" CMake Completed")
+message(" Project name: ${PROJECT_NAME}")
+message("---------------------------------")
