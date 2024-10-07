@@ -1,3 +1,0 @@
-/home/neusvegasm/gitrepo/source/rp_01_compilers_and_build_systems/02_so_game/build/CMakeFiles/so_game.dir
-/home/neusvegasm/gitrepo/source/rp_01_compilers_and_build_systems/02_so_game/build/CMakeFiles/edit_cache.dir
-/home/neusvegasm/gitrepo/source/rp_01_compilers_and_build_systems/02_so_game/build/CMakeFiles/rebuild_cache.dir
