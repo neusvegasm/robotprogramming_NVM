@@ -123,28 +123,20 @@ struct Matrix {
 
         Matrix returned(new_rows, new_cols);
 
+        for(int r=0; r<new_rows; r++){
+            for (int c=0;c<new_cols;c++){
 
-        int col = 0;
-        int row = 0;
-
-        for (int i = 0; i < rows; i++) {
-
-            while(row < new_rows){
-                
                 float result = 0;
-                for (int j=0; j<other.cols; j++){
-                    result += data[cols*i+j] * other.data[cols*j+i];
+
+                for (int i=0;i<cols;i++){
+                    result += (*this).data[cols*r+i] * other.data[other.cols*i+c];
                 }
 
-                returned.data[new_rows*row+col] = result;
-
+                returned.data[new_rows*r+c] = result;
+                
             }
-            
+
         }
-            
-            
-
-
         
         return returned;
     }
@@ -174,7 +166,7 @@ int main() {
     m2.set(2.0f, 2, 2);
     m2.set(2.0f, 1, 0);
     m2.set(2.0f, 1, 1);
-    m2.set(2.0f, 1, 2);
+    m2.set(1.0f, 1, 2);
     
 
     float scalar = 2.0f;
