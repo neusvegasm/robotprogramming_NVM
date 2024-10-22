@@ -1,0 +1,43 @@
+[01m[K/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp:[m[K In constructor ‘[01m[KTurtleSquareNode::TurtleSquareNode()[m[K’:
+[01m[K/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp:26:65:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtleSquareNode::create_subscription<turtlesim::msg::Pose>(const char [14], int)[m[K’
+   26 |     subscriber = [01;31m[Kthis->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10)[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp:26:65:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 2 provided
+   26 |     subscriber = [01;36m[Kthis->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10)[m[K;
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp:[m[K In member function ‘[01m[Kvoid TurtleSquareNode::timer_callback()[m[K’:
+[01m[K/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope
+   73 |     if ([01;31m[Kv[m[K ==0 && w ==0){
+      |         [01;31m[K^[m[K
+[01m[K/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp:73:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+   73 |     if (v ==0 && [01;31m[Kw[m[K ==0){
+      |                  [01;31m[K^[m[K
+[01m[K/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+   78 |     if ([01;31m[Kw[m[K == 0 && current_time > side_length / trans_vel ){
+      |         [01;31m[K^[m[K
+[01m[K/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp:79:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope
+   79 |       [01;31m[Kv[m[K = 0.0;
+      |       [01;31m[K^[m[K
+[01m[K/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp:84:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope
+   84 |     if ([01;31m[Kv[m[K == 0 && current_time > angle_to_turn / rot_vel){
+      |         [01;31m[K^[m[K
+[01m[K/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp:86:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+   86 |       [01;31m[Kw[m[K=0.0;
+      |       [01;31m[K^[m[K
+[01m[K/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp:90:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope
+   90 |     velocity_message.linear.x = [01;31m[Kv[m[K;
+      |                                 [01;31m[K^[m[K
+[01m[K/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp:91:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+   91 |     velocity_message.angular.z = [01;31m[Kw[m[K;
+      |                                  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/turtle_square.dir/build.make:76: CMakeFiles/turtle_square.dir/src/turtle_square.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_square.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

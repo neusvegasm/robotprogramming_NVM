@@ -1,0 +1,26 @@
+[0.023s] Invoking command in '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller -- -j8 -l8
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target turtle_square[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_square.dir/src/turtle_square.cpp.o[0m
+[9.298s] [100%] [32m[1mLinking CXX executable turtle_square[0m
+[9.851s] [100%] Built target turtle_square
+[9.862s] Invoked command in '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller -- -j8 -l8
+[9.900s] Invoking command in '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller
+[9.907s] -- Install configuration: ""
+[9.907s] -- Installing: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/lib/rp_simple_controller/turtle_square
+[9.911s] -- Set runtime path of "/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/lib/rp_simple_controller/turtle_square" to ""
+[9.911s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/ament_index/resource_index/package_run_dependencies/rp_simple_controller
+[9.912s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/ament_index/resource_index/parent_prefix_path/rp_simple_controller
+[9.912s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/ament_prefix_path.sh
+[9.912s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/ament_prefix_path.dsv
+[9.912s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/path.sh
+[9.912s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/path.dsv
+[9.912s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.bash
+[9.912s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.sh
+[9.912s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.zsh
+[9.912s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.dsv
+[9.912s] -- Installing: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/package.dsv
+[9.913s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/ament_index/resource_index/packages/rp_simple_controller
+[9.913s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/cmake/rp_simple_controllerConfig.cmake
+[9.913s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/cmake/rp_simple_controllerConfig-version.cmake
+[9.913s] -- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/package.xml
+[9.915s] Invoked command in '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller
