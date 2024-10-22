@@ -1,0 +1,3 @@
+#include <iostream>
+
+struc VecF {}
