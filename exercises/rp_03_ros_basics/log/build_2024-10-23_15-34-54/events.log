@@ -1,0 +1,208 @@
+[0.000000] (-) TimerEvent: {}
+[0.000357] (rp_simple_controller) JobQueued: {'identifier': 'rp_simple_controller', 'dependencies': OrderedDict()}
+[0.000444] (rp_simple_controller) JobStarted: {'identifier': 'rp_simple_controller'}
+[0.032434] (rp_simple_controller) JobProgress: {'identifier': 'rp_simple_controller', 'progress': 'cmake'}
+[0.037305] (rp_simple_controller) JobProgress: {'identifier': 'rp_simple_controller', 'progress': 'build'}
+[0.037491] (rp_simple_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller', '--', '-j8', '-l8'], 'cwd': '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'neusvegasm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/neusvegasm'), ('OLDPWD', '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'neusvegasm'), ('NAME', 'LAPTOP-7BR7PO0V'), ('WSL_INTEROP', '/run/WSL/413_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/neusvegasm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Perl64/bin:/mnt/c/Users/neusv/AppData/Roaming/ActiveState/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/neusv/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/neusv/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/neusv/AppData/Local/Microsoft/WindowsApps:/mnt/c/texlive/2020/bin/win32:/mnt/c/Users/neusv/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/neusv/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.097622] (-) TimerEvent: {}
+[0.198370] (-) TimerEvent: {}
+[0.299346] (-) TimerEvent: {}
+[0.375987] (rp_simple_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_square\x1b[0m\n'}
+[0.399656] (-) TimerEvent: {}
+[0.500562] (-) TimerEvent: {}
+[0.549740] (rp_simple_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_square.dir/src/turtle_square.cpp.o\x1b[0m\n'}
+[0.601181] (-) TimerEvent: {}
+[0.702119] (-) TimerEvent: {}
+[0.803011] (-) TimerEvent: {}
+[0.903904] (-) TimerEvent: {}
+[1.004751] (-) TimerEvent: {}
+[1.105604] (-) TimerEvent: {}
+[1.206527] (-) TimerEvent: {}
+[1.307256] (-) TimerEvent: {}
+[1.408107] (-) TimerEvent: {}
+[1.508856] (-) TimerEvent: {}
+[1.609806] (-) TimerEvent: {}
+[1.710822] (-) TimerEvent: {}
+[1.811993] (-) TimerEvent: {}
+[1.913884] (-) TimerEvent: {}
+[2.015726] (-) TimerEvent: {}
+[2.118296] (-) TimerEvent: {}
+[2.221142] (-) TimerEvent: {}
+[2.323127] (-) TimerEvent: {}
+[2.425667] (-) TimerEvent: {}
+[2.526567] (-) TimerEvent: {}
+[2.628950] (-) TimerEvent: {}
+[2.731318] (-) TimerEvent: {}
+[2.833255] (-) TimerEvent: {}
+[2.935373] (-) TimerEvent: {}
+[3.036303] (-) TimerEvent: {}
+[3.138377] (-) TimerEvent: {}
+[3.240483] (-) TimerEvent: {}
+[3.342450] (-) TimerEvent: {}
+[3.444645] (-) TimerEvent: {}
+[3.545560] (-) TimerEvent: {}
+[3.647642] (-) TimerEvent: {}
+[3.749901] (-) TimerEvent: {}
+[3.855942] (-) TimerEvent: {}
+[3.962112] (-) TimerEvent: {}
+[4.065414] (-) TimerEvent: {}
+[4.171503] (-) TimerEvent: {}
+[4.272298] (-) TimerEvent: {}
+[4.378366] (-) TimerEvent: {}
+[4.484384] (-) TimerEvent: {}
+[4.588515] (-) TimerEvent: {}
+[4.693812] (-) TimerEvent: {}
+[4.795441] (-) TimerEvent: {}
+[4.897618] (-) TimerEvent: {}
+[4.999611] (-) TimerEvent: {}
+[5.101186] (-) TimerEvent: {}
+[5.203200] (-) TimerEvent: {}
+[5.304243] (-) TimerEvent: {}
+[5.406381] (-) TimerEvent: {}
+[5.508506] (-) TimerEvent: {}
+[5.610302] (-) TimerEvent: {}
+[5.712381] (-) TimerEvent: {}
+[5.813373] (-) TimerEvent: {}
+[5.915259] (-) TimerEvent: {}
+[6.017056] (-) TimerEvent: {}
+[6.118726] (-) TimerEvent: {}
+[6.220622] (-) TimerEvent: {}
+[6.321800] (-) TimerEvent: {}
+[6.423631] (-) TimerEvent: {}
+[6.524782] (-) TimerEvent: {}
+[6.626543] (-) TimerEvent: {}
+[6.728368] (-) TimerEvent: {}
+[6.829379] (-) TimerEvent: {}
+[6.931321] (-) TimerEvent: {}
+[7.032221] (-) TimerEvent: {}
+[7.133894] (-) TimerEvent: {}
+[7.235511] (-) TimerEvent: {}
+[7.337146] (-) TimerEvent: {}
+[7.438806] (-) TimerEvent: {}
+[7.540472] (-) TimerEvent: {}
+[7.641982] (-) TimerEvent: {}
+[7.743639] (-) TimerEvent: {}
+[7.845306] (-) TimerEvent: {}
+[7.946822] (-) TimerEvent: {}
+[8.048522] (-) TimerEvent: {}
+[8.150226] (-) TimerEvent: {}
+[8.251887] (-) TimerEvent: {}
+[8.353428] (-) TimerEvent: {}
+[8.454991] (-) TimerEvent: {}
+[8.557001] (-) TimerEvent: {}
+[8.658609] (-) TimerEvent: {}
+[8.760117] (-) TimerEvent: {}
+[8.861689] (-) TimerEvent: {}
+[8.963082] (-) TimerEvent: {}
+[9.064229] (-) TimerEvent: {}
+[9.165764] (-) TimerEvent: {}
+[9.267162] (-) TimerEvent: {}
+[9.368563] (-) TimerEvent: {}
+[9.469254] (-) TimerEvent: {}
+[9.570600] (-) TimerEvent: {}
+[9.671942] (-) TimerEvent: {}
+[9.773204] (-) TimerEvent: {}
+[9.874519] (-) TimerEvent: {}
+[9.974984] (-) TimerEvent: {}
+[10.076139] (-) TimerEvent: {}
+[10.177713] (-) TimerEvent: {}
+[10.279067] (-) TimerEvent: {}
+[10.380327] (-) TimerEvent: {}
+[10.481552] (-) TimerEvent: {}
+[10.582884] (-) TimerEvent: {}
+[10.684152] (-) TimerEvent: {}
+[10.785460] (-) TimerEvent: {}
+[10.886928] (-) TimerEvent: {}
+[10.987673] (-) TimerEvent: {}
+[11.088770] (-) TimerEvent: {}
+[11.190237] (-) TimerEvent: {}
+[11.291773] (-) TimerEvent: {}
+[11.393130] (-) TimerEvent: {}
+[11.494295] (-) TimerEvent: {}
+[11.595485] (-) TimerEvent: {}
+[11.696602] (-) TimerEvent: {}
+[11.797700] (-) TimerEvent: {}
+[11.898356] (-) TimerEvent: {}
+[11.998800] (-) TimerEvent: {}
+[12.099220] (-) TimerEvent: {}
+[12.199648] (-) TimerEvent: {}
+[12.300071] (-) TimerEvent: {}
+[12.400496] (-) TimerEvent: {}
+[12.500920] (-) TimerEvent: {}
+[12.601422] (-) TimerEvent: {}
+[12.701838] (-) TimerEvent: {}
+[12.802289] (-) TimerEvent: {}
+[12.902695] (-) TimerEvent: {}
+[13.003127] (-) TimerEvent: {}
+[13.103467] (-) TimerEvent: {}
+[13.203801] (-) TimerEvent: {}
+[13.304135] (-) TimerEvent: {}
+[13.404485] (-) TimerEvent: {}
+[13.504841] (-) TimerEvent: {}
+[13.605234] (-) TimerEvent: {}
+[13.705622] (-) TimerEvent: {}
+[13.806081] (-) TimerEvent: {}
+[13.906488] (-) TimerEvent: {}
+[14.007086] (-) TimerEvent: {}
+[14.107517] (-) TimerEvent: {}
+[14.207913] (-) TimerEvent: {}
+[14.308289] (-) TimerEvent: {}
+[14.408670] (-) TimerEvent: {}
+[14.509045] (-) TimerEvent: {}
+[14.609442] (-) TimerEvent: {}
+[14.709953] (-) TimerEvent: {}
+[14.810348] (-) TimerEvent: {}
+[14.910742] (-) TimerEvent: {}
+[15.011166] (-) TimerEvent: {}
+[15.111529] (-) TimerEvent: {}
+[15.211946] (-) TimerEvent: {}
+[15.312683] (-) TimerEvent: {}
+[15.413422] (-) TimerEvent: {}
+[15.513889] (-) TimerEvent: {}
+[15.614344] (-) TimerEvent: {}
+[15.714857] (-) TimerEvent: {}
+[15.815267] (-) TimerEvent: {}
+[15.915851] (-) TimerEvent: {}
+[16.016478] (-) TimerEvent: {}
+[16.116942] (-) TimerEvent: {}
+[16.183022] (rp_simple_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_square\x1b[0m\n'}
+[16.217212] (-) TimerEvent: {}
+[16.317716] (-) TimerEvent: {}
+[16.418390] (-) TimerEvent: {}
+[16.519122] (-) TimerEvent: {}
+[16.620102] (-) TimerEvent: {}
+[16.721185] (-) TimerEvent: {}
+[16.821896] (-) TimerEvent: {}
+[16.922531] (-) TimerEvent: {}
+[17.023107] (-) TimerEvent: {}
+[17.123668] (-) TimerEvent: {}
+[17.224241] (-) TimerEvent: {}
+[17.324751] (-) TimerEvent: {}
+[17.425204] (-) TimerEvent: {}
+[17.519915] (rp_simple_controller) StdoutLine: {'line': b'[100%] Built target turtle_square\n'}
+[17.525396] (-) TimerEvent: {}
+[17.536878] (rp_simple_controller) CommandEnded: {'returncode': 0}
+[17.581780] (rp_simple_controller) JobProgress: {'identifier': 'rp_simple_controller', 'progress': 'install'}
+[17.596213] (rp_simple_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller'], 'cwd': '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'neusvegasm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/neusvegasm'), ('OLDPWD', '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'neusvegasm'), ('NAME', 'LAPTOP-7BR7PO0V'), ('WSL_INTEROP', '/run/WSL/413_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/neusvegasm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Perl64/bin:/mnt/c/Users/neusv/AppData/Roaming/ActiveState/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/neusv/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/neusv/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/neusv/AppData/Local/Microsoft/WindowsApps:/mnt/c/texlive/2020/bin/win32:/mnt/c/Users/neusv/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/neusv/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[17.608076] (rp_simple_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.610016] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/lib/rp_simple_controller/turtle_square\n'}
+[17.615730] (rp_simple_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/lib/rp_simple_controller/turtle_square" to ""\n'}
+[17.616011] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/ament_index/resource_index/package_run_dependencies/rp_simple_controller\n'}
+[17.616313] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/ament_index/resource_index/parent_prefix_path/rp_simple_controller\n'}
+[17.616658] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/ament_prefix_path.sh\n'}
+[17.617248] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/ament_prefix_path.dsv\n'}
+[17.617770] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/path.sh\n'}
+[17.618134] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/path.dsv\n'}
+[17.618486] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.bash\n'}
+[17.618871] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.sh\n'}
+[17.618989] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.zsh\n'}
+[17.619084] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.dsv\n'}
+[17.619170] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/package.dsv\n'}
+[17.622235] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/ament_index/resource_index/packages/rp_simple_controller\n'}
+[17.622804] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/cmake/rp_simple_controllerConfig.cmake\n'}
+[17.623206] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/cmake/rp_simple_controllerConfig-version.cmake\n'}
+[17.623615] (rp_simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/package.xml\n'}
+[17.625875] (rp_simple_controller) CommandEnded: {'returncode': 0}
+[17.627394] (-) TimerEvent: {}
+[17.712957] (rp_simple_controller) JobEnded: {'identifier': 'rp_simple_controller', 'rc': 0}
+[17.714712] (-) EventReactorShutdown: {}
