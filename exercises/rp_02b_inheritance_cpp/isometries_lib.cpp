@@ -7,6 +7,14 @@ using Scalar=float;
 struct Vec2f {
   static constexpr int Dim=2;
   Scalar values[Dim];
+
+  Vec2f(){}
+
+  Vec2f(const Scalar& x, const Scalar& y){
+    values[0]=x;
+    values[1]=y;
+  }
+
   inline Vec2f& operator+=(const Vec2f& src) {
     for (int i=0; i<Dim; ++i)
       values[i]+=src.values[i];
@@ -41,6 +49,14 @@ struct Vec2f {
     v-=other;
     return v;
   }
+
+  inline Vec2f operator-() const {
+    Vec2f v=*this;
+    for (int i=0;i<Dim;i++){
+      v.values[i] = -v.values[i];
+    }
+    return v;
+  }
 };
 
   
@@ -59,7 +75,19 @@ struct Rotation2f {
   static constexpr int Dim=2;
   Scalar R[Dim][Dim];
 
-  void setIdentity();
+  Rotation2f(){}
+
+  Rotation2f(const Scalar angle){
+    setAngle(angle);
+  }
+
+  void setIdentity(){
+    for(int i=0;i<Dim;i++){
+      for(int j=0; j<Dim;j++){
+        R[i][j] = (Scalar)(i==j);
+      }
+    }
+  };
 
   inline void fill(const Scalar v=Scalar(0)) {
     for (int i=0; i<Dim; ++i){
@@ -158,12 +186,12 @@ struct Isometry2f {
   static constexpr int Dim=2;
   Vec2f t;
   Rotation2f R;
+
   Isometry2f(){}
-  Isometry2f(Scalar x, Scalar y, Scalar theta){
-    // todo;
-    t.values[0] = x;
-    t.values[1] = y;
-    R.setAngle(theta);
+
+  Isometry2f(Scalar x, Scalar y, Scalar theta):
+    t(x,y),R(theta){
+
   }
 
   Isometry2f(const Vec2f& translation,
@@ -194,7 +222,7 @@ struct Isometry2f {
     //todo
     Isometry2f result;
     result.R = R * src.R;
-    result.t = t + src.t;
+    result.t = t + src.R*src.t;
     return result;
   }
 
@@ -202,19 +230,14 @@ struct Isometry2f {
     // todo
     Isometry2f inverted;
     inverted.R = R.inverse();
-    Vec2f tneg = t-t;
-    tneg = tneg -t;
-    inverted.t = inverted.R*tneg;
+    inverted.t = -(inverted.R*t);
     return inverted;
   }
 
 
   inline Vec2f operator*(const Vec2f& src) const {
     // todo
-    Vec2f result;
-    result = R*src;
-    result += t;
-    return result;
+    return R*src+t;
   }
   
 };
@@ -289,6 +312,10 @@ int main (int argc, char** argv) {
     pose=pose*iso;
   }
   
-  cout << pose;
+  
+  Isometry2f pose2(1,2,M_PI/2);
+
+  cout << pose2.inverse();
+
 
 }
