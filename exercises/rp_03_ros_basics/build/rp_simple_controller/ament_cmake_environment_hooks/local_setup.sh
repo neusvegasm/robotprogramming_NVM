@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/install/rp_simple_controller"}
+: ${AMENT_CURRENT_PREFIX:="/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

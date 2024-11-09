@@ -1,5 +1,5 @@
 CMakeFiles/turtle_square.dir/src/turtle_square.cpp.o: \
- /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp \
+ /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

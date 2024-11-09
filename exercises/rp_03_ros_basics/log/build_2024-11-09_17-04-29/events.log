@@ -1,0 +1,352 @@
+[0.000000] (-) TimerEvent: {}
+[0.000255] (rp_simple_controller) JobQueued: {'identifier': 'rp_simple_controller', 'dependencies': OrderedDict()}
+[0.000387] (rp_simple_controller) JobStarted: {'identifier': 'rp_simple_controller'}
+[0.019530] (rp_simple_controller) JobProgress: {'identifier': 'rp_simple_controller', 'progress': 'cmake'}
+[0.020279] (rp_simple_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/rp_simple_controller', '-DCMAKE_INSTALL_PREFIX=/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller'], 'cwd': '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'neusvegasm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/neusvegasm'), ('OLDPWD', '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'neusvegasm'), ('NAME', 'LAPTOP-7BR7PO0V'), ('WSL_INTEROP', '/run/WSL/778_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/neusvegasm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Perl64/bin:/mnt/c/Users/neusv/AppData/Roaming/ActiveState/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/neusv/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/neusv/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/neusv/AppData/Local/Microsoft/WindowsApps:/mnt/c/texlive/2020/bin/win32:/mnt/c/Users/neusv/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/neusv/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098669] (-) TimerEvent: {}
+[0.199292] (-) TimerEvent: {}
+[0.299872] (-) TimerEvent: {}
+[0.401971] (-) TimerEvent: {}
+[0.462787] (rp_simple_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.502301] (-) TimerEvent: {}
+[0.604461] (-) TimerEvent: {}
+[0.707373] (-) TimerEvent: {}
+[0.810253] (-) TimerEvent: {}
+[0.911994] (-) TimerEvent: {}
+[1.014873] (-) TimerEvent: {}
+[1.117791] (-) TimerEvent: {}
+[1.219003] (-) TimerEvent: {}
+[1.321933] (-) TimerEvent: {}
+[1.379732] (rp_simple_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.423035] (-) TimerEvent: {}
+[1.524679] (-) TimerEvent: {}
+[1.627642] (-) TimerEvent: {}
+[1.730495] (-) TimerEvent: {}
+[1.833392] (-) TimerEvent: {}
+[1.935720] (-) TimerEvent: {}
+[1.971293] (rp_simple_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.035904] (-) TimerEvent: {}
+[2.136405] (-) TimerEvent: {}
+[2.236975] (-) TimerEvent: {}
+[2.245704] (rp_simple_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.257203] (rp_simple_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.260327] (rp_simple_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.261385] (rp_simple_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.267642] (rp_simple_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.337238] (-) TimerEvent: {}
+[2.437763] (-) TimerEvent: {}
+[2.538484] (-) TimerEvent: {}
+[2.543439] (rp_simple_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.555717] (rp_simple_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.556149] (rp_simple_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.556923] (rp_simple_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.579473] (rp_simple_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.638760] (-) TimerEvent: {}
+[2.741593] (-) TimerEvent: {}
+[2.834010] (rp_simple_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.841932] (-) TimerEvent: {}
+[2.944389] (-) TimerEvent: {}
+[3.013773] (rp_simple_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.045282] (-) TimerEvent: {}
+[3.148202] (-) TimerEvent: {}
+[3.250077] (-) TimerEvent: {}
+[3.326418] (rp_simple_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.338912] (rp_simple_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.350506] (-) TimerEvent: {}
+[3.359575] (rp_simple_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.395454] (rp_simple_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.435264] (rp_simple_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.451084] (-) TimerEvent: {}
+[3.541403] (rp_simple_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.547922] (rp_simple_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.551319] (-) TimerEvent: {}
+[3.654157] (-) TimerEvent: {}
+[3.757097] (-) TimerEvent: {}
+[3.859579] (-) TimerEvent: {}
+[3.962294] (-) TimerEvent: {}
+[4.065184] (-) TimerEvent: {}
+[4.168288] (-) TimerEvent: {}
+[4.269003] (-) TimerEvent: {}
+[4.371961] (-) TimerEvent: {}
+[4.474831] (-) TimerEvent: {}
+[4.576480] (-) TimerEvent: {}
+[4.679403] (-) TimerEvent: {}
+[4.780972] (-) TimerEvent: {}
+[4.882050] (-) TimerEvent: {}
+[4.984892] (-) TimerEvent: {}
+[5.085456] (-) TimerEvent: {}
+[5.186313] (-) TimerEvent: {}
+[5.288542] (-) TimerEvent: {}
+[5.391581] (-) TimerEvent: {}
+[5.492286] (-) TimerEvent: {}
+[5.594408] (-) TimerEvent: {}
+[5.697319] (-) TimerEvent: {}
+[5.797966] (rp_simple_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.798214] (-) TimerEvent: {}
+[5.898690] (-) TimerEvent: {}
+[6.001585] (-) TimerEvent: {}
+[6.104504] (-) TimerEvent: {}
+[6.205219] (-) TimerEvent: {}
+[6.308147] (-) TimerEvent: {}
+[6.410530] (-) TimerEvent: {}
+[6.511587] (-) TimerEvent: {}
+[6.614031] (-) TimerEvent: {}
+[6.716164] (-) TimerEvent: {}
+[6.819188] (-) TimerEvent: {}
+[6.921009] (-) TimerEvent: {}
+[7.023922] (-) TimerEvent: {}
+[7.126942] (-) TimerEvent: {}
+[7.228117] (-) TimerEvent: {}
+[7.331045] (-) TimerEvent: {}
+[7.433995] (-) TimerEvent: {}
+[7.534743] (-) TimerEvent: {}
+[7.635770] (-) TimerEvent: {}
+[7.738888] (-) TimerEvent: {}
+[7.841790] (-) TimerEvent: {}
+[7.944730] (-) TimerEvent: {}
+[8.047684] (-) TimerEvent: {}
+[8.149626] (-) TimerEvent: {}
+[8.151598] (rp_simple_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.251848] (-) TimerEvent: {}
+[8.354786] (-) TimerEvent: {}
+[8.457689] (-) TimerEvent: {}
+[8.558697] (-) TimerEvent: {}
+[8.661294] (-) TimerEvent: {}
+[8.764257] (-) TimerEvent: {}
+[8.867154] (-) TimerEvent: {}
+[8.969966] (-) TimerEvent: {}
+[9.070917] (-) TimerEvent: {}
+[9.173819] (-) TimerEvent: {}
+[9.275700] (-) TimerEvent: {}
+[9.378558] (-) TimerEvent: {}
+[9.481443] (-) TimerEvent: {}
+[9.583034] (-) TimerEvent: {}
+[9.685954] (-) TimerEvent: {}
+[9.788807] (-) TimerEvent: {}
+[9.889744] (-) TimerEvent: {}
+[9.991618] (-) TimerEvent: {}
+[10.094662] (-) TimerEvent: {}
+[10.197543] (-) TimerEvent: {}
+[10.300284] (-) TimerEvent: {}
+[10.403081] (-) TimerEvent: {}
+[10.503869] (-) TimerEvent: {}
+[10.606043] (-) TimerEvent: {}
+[10.706599] (-) TimerEvent: {}
+[10.808348] (-) TimerEvent: {}
+[10.909693] (-) TimerEvent: {}
+[11.012599] (-) TimerEvent: {}
+[11.113293] (-) TimerEvent: {}
+[11.213913] (-) TimerEvent: {}
+[11.316961] (-) TimerEvent: {}
+[11.419749] (-) TimerEvent: {}
+[11.520909] (-) TimerEvent: {}
+[11.623320] (-) TimerEvent: {}
+[11.726284] (-) TimerEvent: {}
+[11.829242] (-) TimerEvent: {}
+[11.931090] (-) TimerEvent: {}
+[12.034022] (-) TimerEvent: {}
+[12.137038] (-) TimerEvent: {}
+[12.238326] (-) TimerEvent: {}
+[12.272858] (rp_simple_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.294154] (rp_simple_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.338583] (-) TimerEvent: {}
+[12.439157] (-) TimerEvent: {}
+[12.539910] (-) TimerEvent: {}
+[12.569966] (rp_simple_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.570869] (rp_simple_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.640210] (-) TimerEvent: {}
+[12.741001] (-) TimerEvent: {}
+[12.837786] (rp_simple_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.839601] (rp_simple_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.841205] (-) TimerEvent: {}
+[12.943200] (-) TimerEvent: {}
+[12.969708] (rp_simple_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[13.006372] (rp_simple_controller) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[13.044252] (-) TimerEvent: {}
+[13.147136] (-) TimerEvent: {}
+[13.202895] (rp_simple_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.224091] (rp_simple_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[13.226858] (rp_simple_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller\n'}
+[13.240899] (rp_simple_controller) CommandEnded: {'returncode': 0}
+[13.241899] (rp_simple_controller) JobProgress: {'identifier': 'rp_simple_controller', 'progress': 'build'}
+[13.243023] (rp_simple_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller', '--', '-j8', '-l8'], 'cwd': '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'neusvegasm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/neusvegasm'), ('OLDPWD', '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'neusvegasm'), ('NAME', 'LAPTOP-7BR7PO0V'), ('WSL_INTEROP', '/run/WSL/778_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/neusvegasm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Perl64/bin:/mnt/c/Users/neusv/AppData/Roaming/ActiveState/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/neusv/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/neusv/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/neusv/AppData/Local/Microsoft/WindowsApps:/mnt/c/texlive/2020/bin/win32:/mnt/c/Users/neusv/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/neusv/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.247394] (-) TimerEvent: {}
+[13.313061] (rp_simple_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_square.dir/src/turtle_square.cpp.o\x1b[0m\n'}
+[13.348420] (-) TimerEvent: {}
+[13.451336] (-) TimerEvent: {}
+[13.551936] (-) TimerEvent: {}
+[13.654831] (-) TimerEvent: {}
+[13.757755] (-) TimerEvent: {}
+[13.860697] (-) TimerEvent: {}
+[13.963136] (-) TimerEvent: {}
+[14.066120] (-) TimerEvent: {}
+[14.169060] (-) TimerEvent: {}
+[14.270910] (-) TimerEvent: {}
+[14.373856] (-) TimerEvent: {}
+[14.476761] (-) TimerEvent: {}
+[14.577935] (-) TimerEvent: {}
+[14.680865] (-) TimerEvent: {}
+[14.783876] (-) TimerEvent: {}
+[14.884606] (-) TimerEvent: {}
+[14.987674] (-) TimerEvent: {}
+[15.090730] (-) TimerEvent: {}
+[15.193657] (-) TimerEvent: {}
+[15.296039] (-) TimerEvent: {}
+[15.399062] (-) TimerEvent: {}
+[15.499623] (-) TimerEvent: {}
+[15.601240] (-) TimerEvent: {}
+[15.704306] (-) TimerEvent: {}
+[15.807247] (-) TimerEvent: {}
+[15.908381] (-) TimerEvent: {}
+[16.011328] (-) TimerEvent: {}
+[16.114287] (-) TimerEvent: {}
+[16.217242] (-) TimerEvent: {}
+[16.320231] (-) TimerEvent: {}
+[16.423179] (-) TimerEvent: {}
+[16.524261] (-) TimerEvent: {}
+[16.626521] (-) TimerEvent: {}
+[16.729237] (-) TimerEvent: {}
+[16.832164] (-) TimerEvent: {}
+[16.933793] (-) TimerEvent: {}
+[17.037048] (-) TimerEvent: {}
+[17.140011] (-) TimerEvent: {}
+[17.240982] (-) TimerEvent: {}
+[17.343950] (-) TimerEvent: {}
+[17.447013] (-) TimerEvent: {}
+[17.548600] (-) TimerEvent: {}
+[17.651460] (-) TimerEvent: {}
+[17.754335] (-) TimerEvent: {}
+[17.857338] (-) TimerEvent: {}
+[17.957951] (-) TimerEvent: {}
+[18.060756] (-) TimerEvent: {}
+[18.163695] (-) TimerEvent: {}
+[18.265200] (-) TimerEvent: {}
+[18.368144] (-) TimerEvent: {}
+[18.471123] (-) TimerEvent: {}
+[18.572059] (-) TimerEvent: {}
+[18.674991] (-) TimerEvent: {}
+[18.777664] (-) TimerEvent: {}
+[18.880612] (-) TimerEvent: {}
+[18.983409] (-) TimerEvent: {}
+[19.086363] (-) TimerEvent: {}
+[19.189299] (-) TimerEvent: {}
+[19.291593] (-) TimerEvent: {}
+[19.394590] (-) TimerEvent: {}
+[19.497522] (-) TimerEvent: {}
+[19.598975] (-) TimerEvent: {}
+[19.701966] (-) TimerEvent: {}
+[19.804594] (-) TimerEvent: {}
+[19.905475] (-) TimerEvent: {}
+[20.007414] (-) TimerEvent: {}
+[20.110402] (-) TimerEvent: {}
+[20.213426] (-) TimerEvent: {}
+[20.316137] (-) TimerEvent: {}
+[20.419201] (-) TimerEvent: {}
+[20.520139] (-) TimerEvent: {}
+[20.622094] (-) TimerEvent: {}
+[20.725077] (-) TimerEvent: {}
+[20.827917] (-) TimerEvent: {}
+[20.929186] (-) TimerEvent: {}
+[21.032142] (-) TimerEvent: {}
+[21.135203] (-) TimerEvent: {}
+[21.235753] (-) TimerEvent: {}
+[21.338689] (-) TimerEvent: {}
+[21.441647] (-) TimerEvent: {}
+[21.543175] (-) TimerEvent: {}
+[21.645598] (-) TimerEvent: {}
+[21.748624] (-) TimerEvent: {}
+[21.851362] (-) TimerEvent: {}
+[21.953134] (-) TimerEvent: {}
+[22.056061] (-) TimerEvent: {}
+[22.159260] (-) TimerEvent: {}
+[22.260451] (-) TimerEvent: {}
+[22.363329] (-) TimerEvent: {}
+[22.466258] (-) TimerEvent: {}
+[22.568217] (-) TimerEvent: {}
+[22.671148] (-) TimerEvent: {}
+[22.774076] (-) TimerEvent: {}
+[22.877045] (-) TimerEvent: {}
+[22.979811] (-) TimerEvent: {}
+[23.082739] (-) TimerEvent: {}
+[23.185688] (-) TimerEvent: {}
+[23.288652] (-) TimerEvent: {}
+[23.391586] (-) TimerEvent: {}
+[23.494535] (-) TimerEvent: {}
+[23.597285] (-) TimerEvent: {}
+[23.700226] (-) TimerEvent: {}
+[23.803156] (-) TimerEvent: {}
+[23.906251] (-) TimerEvent: {}
+[24.009055] (-) TimerEvent: {}
+[24.112002] (-) TimerEvent: {}
+[24.214971] (-) TimerEvent: {}
+[24.317928] (-) TimerEvent: {}
+[24.420874] (-) TimerEvent: {}
+[24.521633] (-) TimerEvent: {}
+[24.624647] (-) TimerEvent: {}
+[24.727551] (-) TimerEvent: {}
+[24.830478] (-) TimerEvent: {}
+[24.933444] (-) TimerEvent: {}
+[25.036234] (-) TimerEvent: {}
+[25.139205] (-) TimerEvent: {}
+[25.242159] (-) TimerEvent: {}
+[25.345266] (-) TimerEvent: {}
+[25.448167] (-) TimerEvent: {}
+[25.549594] (-) TimerEvent: {}
+[25.650204] (-) TimerEvent: {}
+[25.752801] (-) TimerEvent: {}
+[25.855712] (-) TimerEvent: {}
+[25.958669] (-) TimerEvent: {}
+[26.061383] (-) TimerEvent: {}
+[26.164370] (-) TimerEvent: {}
+[26.267401] (-) TimerEvent: {}
+[26.370390] (-) TimerEvent: {}
+[26.473403] (-) TimerEvent: {}
+[26.575369] (-) TimerEvent: {}
+[26.678299] (-) TimerEvent: {}
+[26.781204] (-) TimerEvent: {}
+[26.884132] (-) TimerEvent: {}
+[26.986476] (-) TimerEvent: {}
+[27.089018] (-) TimerEvent: {}
+[27.192109] (-) TimerEvent: {}
+[27.293900] (-) TimerEvent: {}
+[27.397190] (-) TimerEvent: {}
+[27.500523] (-) TimerEvent: {}
+[27.601600] (-) TimerEvent: {}
+[27.636196] (rp_simple_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_square\x1b[0m\n'}
+[27.701980] (-) TimerEvent: {}
+[27.804883] (-) TimerEvent: {}
+[27.907826] (-) TimerEvent: {}
+[28.010650] (-) TimerEvent: {}
+[28.113559] (-) TimerEvent: {}
+[28.216235] (-) TimerEvent: {}
+[28.318421] (-) TimerEvent: {}
+[28.421379] (-) TimerEvent: {}
+[28.522004] (-) TimerEvent: {}
+[28.623506] (-) TimerEvent: {}
+[28.634370] (rp_simple_controller) StdoutLine: {'line': b'[100%] Built target turtle_square\n'}
+[28.652334] (rp_simple_controller) CommandEnded: {'returncode': 0}
+[28.695383] (rp_simple_controller) JobProgress: {'identifier': 'rp_simple_controller', 'progress': 'install'}
+[28.707296] (rp_simple_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller'], 'cwd': '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'neusvegasm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/neusvegasm'), ('OLDPWD', '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'neusvegasm'), ('NAME', 'LAPTOP-7BR7PO0V'), ('WSL_INTEROP', '/run/WSL/778_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/neusvegasm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Perl64/bin:/mnt/c/Users/neusv/AppData/Roaming/ActiveState/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/neusv/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/neusv/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/neusv/AppData/Local/Microsoft/WindowsApps:/mnt/c/texlive/2020/bin/win32:/mnt/c/Users/neusv/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/neusv/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[28.720018] (rp_simple_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.721053] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/lib/rp_simple_controller/turtle_square\n'}
+[28.723709] (-) TimerEvent: {}
+[28.727786] (rp_simple_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/lib/rp_simple_controller/turtle_square" to ""\n'}
+[28.728857] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/ament_index/resource_index/package_run_dependencies/rp_simple_controller\n'}
+[28.729380] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/ament_index/resource_index/parent_prefix_path/rp_simple_controller\n'}
+[28.730173] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/ament_prefix_path.sh\n'}
+[28.730505] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/ament_prefix_path.dsv\n'}
+[28.730917] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/path.sh\n'}
+[28.731338] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/path.dsv\n'}
+[28.731676] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.bash\n'}
+[28.732191] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.sh\n'}
+[28.732482] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.zsh\n'}
+[28.733046] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.dsv\n'}
+[28.733241] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/package.dsv\n'}
+[28.733935] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/ament_index/resource_index/packages/rp_simple_controller\n'}
+[28.734518] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/cmake/rp_simple_controllerConfig.cmake\n'}
+[28.734847] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/cmake/rp_simple_controllerConfig-version.cmake\n'}
+[28.735193] (rp_simple_controller) StdoutLine: {'line': b'-- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/package.xml\n'}
+[28.738715] (rp_simple_controller) CommandEnded: {'returncode': 0}
+[28.824817] (-) TimerEvent: {}
+[28.827297] (rp_simple_controller) JobEnded: {'identifier': 'rp_simple_controller', 'rc': 0}
+[28.829836] (-) EventReactorShutdown: {}

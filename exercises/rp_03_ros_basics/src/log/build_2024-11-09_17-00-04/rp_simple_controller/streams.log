@@ -1,0 +1,21 @@
+[0.030s] Invoking command in '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/build/rp_simple_controller': /usr/bin/cmake /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/rp_simple_controller -DCMAKE_INSTALL_PREFIX=/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/install/rp_simple_controller
+[2.096s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[2.097s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.097s]   has asked CMake to find a package configuration file provided by
+[2.097s]   "ament_cmake", but CMake did not find one.
+[2.097s] 
+[2.097s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.097s]   any of the following names:
+[2.097s] 
+[2.097s]     ament_cmakeConfig.cmake
+[2.097s]     ament_cmake-config.cmake
+[2.098s] 
+[2.098s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.098s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.098s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.098s]   has been installed.
+[2.099s] 
+[2.099s] [0m
+[2.101s] -- Configuring incomplete, errors occurred!
+[2.101s] See also "/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/build/rp_simple_controller/CMakeFiles/CMakeOutput.log".
+[2.102s] Invoked command in '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/build/rp_simple_controller' returned '1': /usr/bin/cmake /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/rp_simple_controller -DCMAKE_INSTALL_PREFIX=/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/install/rp_simple_controller

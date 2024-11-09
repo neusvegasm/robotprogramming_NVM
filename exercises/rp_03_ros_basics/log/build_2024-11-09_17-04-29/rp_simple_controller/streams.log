@@ -1,0 +1,62 @@
+[0.022s] Invoking command in '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/rp_simple_controller -DCMAKE_INSTALL_PREFIX=/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller
+[0.463s] -- The C compiler identification is GNU 11.4.0
+[1.379s] -- The CXX compiler identification is GNU 11.4.0
+[1.971s] -- Detecting C compiler ABI info
+[2.245s] -- Detecting C compiler ABI info - done
+[2.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.260s] -- Detecting C compile features
+[2.261s] -- Detecting C compile features - done
+[2.267s] -- Detecting CXX compiler ABI info
+[2.543s] -- Detecting CXX compiler ABI info - done
+[2.555s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.556s] -- Detecting CXX compile features
+[2.557s] -- Detecting CXX compile features - done
+[2.579s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.834s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.014s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.326s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.339s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.359s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.395s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.435s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.541s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.548s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.798s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.151s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.273s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.294s] -- Looking for pthread.h
+[12.570s] -- Looking for pthread.h - found
+[12.571s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.838s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.839s] -- Found Threads: TRUE  
+[12.969s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[13.006s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[13.203s] -- Configuring done
+[13.224s] -- Generating done
+[13.227s] -- Build files have been written to: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller
+[13.241s] Invoked command in '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/rp_simple_controller -DCMAKE_INSTALL_PREFIX=/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller
+[13.244s] Invoking command in '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller -- -j8 -l8
+[13.313s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_square.dir/src/turtle_square.cpp.o[0m
+[27.636s] [100%] [32m[1mLinking CXX executable turtle_square[0m
+[28.634s] [100%] Built target turtle_square
+[28.652s] Invoked command in '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller -- -j8 -l8
+[28.709s] Invoking command in '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller
+[28.720s] -- Install configuration: ""
+[28.721s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/lib/rp_simple_controller/turtle_square
+[28.728s] -- Set runtime path of "/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/lib/rp_simple_controller/turtle_square" to ""
+[28.729s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/ament_index/resource_index/package_run_dependencies/rp_simple_controller
+[28.729s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/ament_index/resource_index/parent_prefix_path/rp_simple_controller
+[28.730s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/ament_prefix_path.sh
+[28.730s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/ament_prefix_path.dsv
+[28.731s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/path.sh
+[28.731s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/environment/path.dsv
+[28.731s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.bash
+[28.732s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.sh
+[28.732s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.zsh
+[28.733s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/local_setup.dsv
+[28.733s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/package.dsv
+[28.734s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/ament_index/resource_index/packages/rp_simple_controller
+[28.734s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/cmake/rp_simple_controllerConfig.cmake
+[28.735s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/cmake/rp_simple_controllerConfig-version.cmake
+[28.735s] -- Installing: /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/install/rp_simple_controller/share/rp_simple_controller/package.xml
+[28.739s] Invoked command in '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller

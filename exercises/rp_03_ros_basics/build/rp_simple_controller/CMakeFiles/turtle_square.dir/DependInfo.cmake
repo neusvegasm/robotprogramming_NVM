@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp" "CMakeFiles/turtle_square.dir/src/turtle_square.cpp.o" "gcc" "CMakeFiles/turtle_square.dir/src/turtle_square.cpp.o.d"
+  "/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/rp_simple_controller/src/turtle_square.cpp" "CMakeFiles/turtle_square.dir/src/turtle_square.cpp.o" "gcc" "CMakeFiles/turtle_square.dir/src/turtle_square.cpp.o.d"
   )
 
 # Targets to which this target links.

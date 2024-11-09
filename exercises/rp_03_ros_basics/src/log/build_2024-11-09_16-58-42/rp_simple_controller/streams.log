@@ -1,0 +1,33 @@
+[0.032s] Invoking command in '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/build/rp_simple_controller': /usr/bin/cmake /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/rp_simple_controller -DCMAKE_INSTALL_PREFIX=/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/install/rp_simple_controller
+[0.445s] -- The C compiler identification is GNU 11.4.0
+[1.238s] -- The CXX compiler identification is GNU 11.4.0
+[1.838s] -- Detecting C compiler ABI info
+[2.114s] -- Detecting C compiler ABI info - done
+[2.151s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.152s] -- Detecting C compile features
+[2.154s] -- Detecting C compile features - done
+[2.162s] -- Detecting CXX compiler ABI info
+[2.447s] -- Detecting CXX compiler ABI info - done
+[2.460s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.460s] -- Detecting CXX compile features
+[2.461s] -- Detecting CXX compile features - done
+[6.009s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[6.010s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[6.010s]   has asked CMake to find a package configuration file provided by
+[6.010s]   "ament_cmake", but CMake did not find one.
+[6.010s] 
+[6.011s]   Could not find a package configuration file provided by "ament_cmake" with
+[6.011s]   any of the following names:
+[6.011s] 
+[6.011s]     ament_cmakeConfig.cmake
+[6.011s]     ament_cmake-config.cmake
+[6.012s] 
+[6.012s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[6.012s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[6.013s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[6.013s]   has been installed.
+[6.013s] 
+[6.013s] [0m
+[6.014s] -- Configuring incomplete, errors occurred!
+[6.014s] See also "/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/build/rp_simple_controller/CMakeFiles/CMakeOutput.log".
+[6.018s] Invoked command in '/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/build/rp_simple_controller' returned '1': /usr/bin/cmake /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/rp_simple_controller -DCMAKE_INSTALL_PREFIX=/home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/install/rp_simple_controller

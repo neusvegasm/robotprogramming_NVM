@@ -21,7 +21,7 @@ add_executable(turtle_square src/turtle_square.cpp)
 # Remember to link the dependencies, you should write:
 # ament_target_dependencies(target_name dependency1 dependency2 ...)
 # TODO here!
-ament_target_dependencies(turtle_square ament_cmake rclcpp geometry_msgs turtlesim)
+ament_target_dependencies(turtle_square rclcpp geometry_msgs turtlesim)
 
 # Install the executable to the lib/${PROJECT_NAME} directory
 install(

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller
+CMAKE_SOURCE_DIR = /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/rp_simple_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller
+CMAKE_BINARY_DIR = /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller
 
 # Utility rule file for rp_simple_controller_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/rp_simple_controller_uninstall.dir/compiler_depend.make
 include CMakeFiles/rp_simple_controller_uninstall.dir/progress.make
 
 CMakeFiles/rp_simple_controller_uninstall:
-	/usr/bin/cmake -P /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 rp_simple_controller_uninstall: CMakeFiles/rp_simple_controller_uninstall
 rp_simple_controller_uninstall: CMakeFiles/rp_simple_controller_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/rp_simple_controller_uninstall.dir/clean:
 .PHONY : CMakeFiles/rp_simple_controller_uninstall.dir/clean
 
 CMakeFiles/rp_simple_controller_uninstall.dir/depend:
-	cd /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/src/rp_simple_controller /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller /home/neusvegasm/gitrepo/exercises/rp_03_ros_basics/build/rp_simple_controller/CMakeFiles/rp_simple_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/rp_simple_controller /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/src/rp_simple_controller /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller /home/neusvegasm/github/robot_progamming/exercises/rp_03_ros_basics/build/rp_simple_controller/CMakeFiles/rp_simple_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rp_simple_controller_uninstall.dir/depend
 
